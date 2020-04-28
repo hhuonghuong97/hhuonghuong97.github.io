@@ -1,0 +1,201 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f3f7fa!important;
+}
+.back {
+	background-image: url("images/hero.jpg");
+	width: 100%;
+	height: 634px;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+	border: 7px;
+}
+.icon-sm {
+	margin: 10px 10px 10px 0;
+}
+.icon-big {
+	font-size: 68px;
+    margin: 109px;
+}
+.img-size {
+	width: 255px;
+	height: 400px;
+	margin: 16px;
+	border-radius: 3px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.img-size:hover {
+	box-sizing: border-box;
+	transform: scale(1.05);
+	transition: transform 3s;
+	width: 255px;
+	height: 400px;
+}
+.opa {
+	background-color: #1c21408c;
+	width: 255px;
+	height: 400px;
+}
+.opa:hover {
+	background-color: transparent;
+	transition: background-color 1s;
+}
+.st-center-text {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 50%;
+}
+.size-img-4 {
+	width: 348px;
+	height: 230px;
+}
+.mode {
+	width: 32px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #11ab7c;
+    border-radius: 10rem;
+}
+.text-size-sm {
+	font-size: 13px;
+	opacity: .7;
+}
+.text-size-md {
+	font-size: 14px;
+	opacity: .7;
+}
+.card:hover {
+	position: relative;
+	bottom: 6px;
+	transition: bottom 3s;
+}
+.cent {
+	text-align: center;
+}
+.opacity-style {
+	opacity: .7;
+}
+.back-icon {
+	background-color: #005ad433;
+	border-radius: 50%;
+	    width: 75px;
+    height: 75px;
+}
+.sp-position-center {
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+.big-size {
+	font-weight: 500!important;
+	font-size: 5rem;
+	line-height: 1.4;
+}
+.text-primary {
+	color: #005ad4!important;
+}
+.text-gray {
+	color: #66799e!important;
+}
+.color-blue {
+	color: #506690;
+}
+.cart-btn {
+	width: 250px;
+	border: solid 2px #005ad4;
+}
+.color-blue-light {
+	color: #005ad4;
+}
+.cart-btn:hover {
+	background-color: #005ad4;
+	color: white;
+}
+.avt-link {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	
+}
+.blockquote {
+	font-family: Sanchez,serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.bg-dark {
+    background-color: #2a354f!important;
+}
+footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul.text-gray li {
+    display: block;
+   
+}
+footer ul.text-gray li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-weight: 300;
+}
+ol li, p, ul li {
+    font-family: Poppins,sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.bo-style {
+	border-radius: 5px;
+}
+
+.text-white .display-1, .text-white .display-2, .text-white .display-3, .text-white .display-4, .text-white .h1, .text-white .h2, .text-white .h3, .text-white .h4, .text-white .h5, .text-white .h6, .text-white a:not(.btn), .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: #fff;
+}
+@media (max-width: 991.98px)
+.display-2 {
+    font-size: 1.875rem;
+}
+.display-1, .display-2, .display-3, .display-4 {
+    font-weight: 400;
+    color: #2a354f;
+}
+@media (max-width: 1200px)
+.display-2 {
+    font-size: calc(1.455rem + 2.46vw);
+}
+.display-2 {
+    font-size: 3.3rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+@media (max-width: 1200px)
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #2a354f;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
